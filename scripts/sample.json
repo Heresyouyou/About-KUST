@@ -1,0 +1,224 @@
+{
+  "pos": 0,
+  "end": 131,
+  "flags": 0,
+  "modifierFlagsCache": 0,
+  "transformFlags": 1,
+  "kind": 303,
+  "statements": [
+    {
+      "pos": 0,
+      "end": 43,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 1,
+      "parent": "{Circular}",
+      "kind": 258,
+      "name": {
+        "pos": 24,
+        "end": 33,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "parent": "{Circular}",
+        "kind": 79,
+        "escapedText": "KyString"
+      },
+      "type": {
+        "pos": 35,
+        "end": 42,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 1,
+        "parent": "{Circular}",
+        "kind": 149
+      }
+    },
+    {
+      "pos": 43,
+      "end": 131,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 1,
+      "parent": "{Circular}",
+      "kind": 258,
+      "name": {
+        "pos": 48,
+        "end": 53,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "parent": "{Circular}",
+        "kind": 79,
+        "escapedText": "Unit"
+      },
+      "type": {
+        "pos": 55,
+        "end": 131,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 1,
+        "parent": "{Circular}",
+        "kind": 181,
+        "members": [
+          {
+            "pos": 57,
+            "end": 74,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 1,
+            "parent": "{Circular}",
+            "kind": 165,
+            "name": {
+              "pos": 57,
+              "end": 64,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "{Circular}",
+              "kind": 79,
+              "escapedText": "kyid"
+            },
+            "type": {
+              "pos": 65,
+              "end": 74,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 1,
+              "parent": "{Circular}",
+              "kind": 177,
+              "typeName": {
+                "pos": 65,
+                "end": 74,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "parent": "{Circular}",
+                "kind": 79,
+                "escapedText": "KyString"
+              }
+            }
+          },
+          {
+            "pos": 74,
+            "end": 93,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 1,
+            "parent": "{Circular}",
+            "kind": 165,
+            "name": {
+              "pos": 74,
+              "end": 84,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "{Circular}",
+              "kind": 79,
+              "escapedText": "content"
+            },
+            "type": {
+              "pos": 86,
+              "end": 93,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 1,
+              "parent": "{Circular}",
+              "kind": 149
+            },
+            "questionToken": {
+              "pos": 84,
+              "end": 85,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "{Circular}",
+              "kind": 57
+            }
+          },
+          {
+            "pos": 93,
+            "end": 111,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 1,
+            "parent": "{Circular}",
+            "kind": 165,
+            "name": {
+              "pos": 93,
+              "end": 103,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "{Circular}",
+              "kind": 79,
+              "escapedText": "created"
+            },
+            "type": {
+              "pos": 104,
+              "end": 111,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 1,
+              "parent": "{Circular}",
+              "kind": 146
+            }
+          },
+          {
+            "pos": 111,
+            "end": 129,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 1,
+            "parent": "{Circular}",
+            "kind": 165,
+            "name": {
+              "pos": 111,
+              "end": 121,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "{Circular}",
+              "kind": 79,
+              "escapedText": "updated"
+            },
+            "type": {
+              "pos": 122,
+              "end": 129,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 1,
+              "parent": "{Circular}",
+              "kind": 146
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "endOfFileToken": {
+    "pos": 131,
+    "end": 131,
+    "flags": 0,
+    "modifierFlagsCache": 0,
+    "transformFlags": 0,
+    "parent": "{Circular}",
+    "kind": 1
+  },
+  "fileName": "sample.ts",
+  "text": "// The id of a unit\ntype KyString = string;\ntype Unit = {\n  kyid: KyString\n  content?: string\n  created: number\n  updated: number\n}",
+  "languageVariant": 0,
+  "scriptKind": 3,
+  "isDeclarationFile": false,
+  "hasNoDefaultLib": false,
+  "bindDiagnostics": [],
+  "pragmas": {},
+  "referencedFiles": [],
+  "typeReferenceDirectives": [],
+  "libReferenceDirectives": [],
+  "amdDependencies": [],
+  "nodeCount": 22,
+  "identifierCount": 7,
+  "identifiers": {},
+  "parseDiagnostics": []
+}
